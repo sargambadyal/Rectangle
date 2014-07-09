@@ -15,8 +15,7 @@ class Rectangle
       false
 
     else
-      @length.value == other.length.value && @length.unit == other.length.unit && @breadth.value == other.breadth.value && @breadth.unit == other.breadth.unit
-
+     @length.value == other.length.value && @length.unit == other.length.unit && @breadth.value == other.breadth.value && @breadth.unit == other.breadth.unit
     end
 
   end
@@ -25,12 +24,15 @@ class Rectangle
     (length.hash * 19) + (breadth.hash * 19)
   end
 
-  def eql? other
+  def eql other
     self == other
   end
 
   
   def perimeter
-    ()
+    final_length = @length.convert_to_mm(@length.value,@length.unit).to_i
+    final_breadth = @breadth.convert_to_mm(@breadth.value,@breadth.unit).to_i
+    perimeter_value= 2*( final_length + final_breadth)
+    Length.new(perimeter_value ,"mm")
   end
 end
