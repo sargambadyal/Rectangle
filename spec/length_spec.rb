@@ -49,4 +49,5 @@ describe 'Length' do
     expect(Length.new(1, Unit::CM)).to eq(Length.new(100, Unit::MM))
   end
 
+
 end

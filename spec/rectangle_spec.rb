@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Rectangle do
-  it "should give perimeter 1000 if length= 3cm and breadth= 2cm " do
+  it "should give perimeter 1000 mm if length= 3cm and breadth= 2cm " do
     length = Length.new(3, Unit::CM)
     breadth = Length.new(2, Unit::CM)
     rectangle = Rectangle.new(length, breadth)

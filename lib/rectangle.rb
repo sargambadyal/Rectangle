@@ -31,9 +31,9 @@ class Rectangle
 
 
   def perimeter
-    final_length = @length.convert_to_mm(@length.value, @length.unit)
-    final_breadth = @breadth.convert_to_mm(@breadth.value, @breadth.unit)
+    final_length = @length.value
+    final_breadth = @breadth.value
     perimeter_value= 2*(final_length + final_breadth)
-    Length.new(perimeter_value, "mm")
+    Length.new(perimeter_value, Unit::MM)
   end
 end

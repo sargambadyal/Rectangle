@@ -3,7 +3,9 @@ class Length
   attr_reader :value, :unit
 
   def initialize value, unit
-    @value = convert_to_mm value, unit
+    @unit = unit
+    @new_unit = Unit.new(unit)
+    @value = convert_to_mm value, @new_unit
   end
 
 
@@ -32,19 +34,20 @@ class Length
 
   def convert_to_mm value, unit
 
-    if unit == Unit::METRE
-      new_value = value * 1000
+    @new_unit.scale * value
 
-    elsif unit == Unit::CM
-      new_value = value * 100
-
-    else
-      new_value = value
-    end
-
-    new_value
+    # value unit == Unit::METRE
+    #   new_value = value * 1000
+    #
+    # elsif unit == Unit::CM
+    #   new_value = value * 100
+    #
+    # else
+    #   new_value = value
+    # end
+    #
+    # new_value
 
   end
-
 
 end
