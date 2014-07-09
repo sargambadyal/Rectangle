@@ -1,5 +1,5 @@
-# class Unit
-#   METER = Object.new
-#   MM = Object.new
-#   CM = Object.new
-# end
+class Unit
+  METRE = Object.new
+  MM = Object.new
+  CM = Object.new
+end

@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9879eb93-d755-4900-a9ad-474ad85e27ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/length_spec.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/unit.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Rectangle.iml" afterPath="$PROJECT_DIR$/.idea/Rectangle.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/length.rb" afterPath="$PROJECT_DIR$/lib/length.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/length_spec.rb" afterPath="$PROJECT_DIR$/spec/length_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/rectangle.rb" afterPath="$PROJECT_DIR$/lib/rectangle.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/rectangle_spec.rb" afterPath="$PROJECT_DIR$/spec/rectangle_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/unit.rb" afterPath="$PROJECT_DIR$/lib/unit.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rectangle.iws" />
@@ -22,9 +21,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Rectangle@rectangle.coverage" NAME="rectangle Coverage Results" MODIFIED="1404820250893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Rectangle" />
     <SUITE FILE_PATH="coverage/Rectangle@Rectangle_Equality_and_type_check__Rectangle.coverage" NAME="Rectangle Equality and type check: Rectangle Coverage Results" MODIFIED="1404820248448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Rectangle" />
-    <SUITE FILE_PATH="coverage/Rectangle@Run_spec__length_spec___Rectangle.coverage" NAME="Run spec 'length_spec': Rectangle Coverage Results" MODIFIED="1404873006331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Rectangle" />
+    <SUITE FILE_PATH="coverage/Rectangle@Run_spec__length_spec___Rectangle.coverage" NAME="Run spec 'length_spec': Rectangle Coverage Results" MODIFIED="1404874036319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Rectangle" />
     <SUITE FILE_PATH="coverage/Rectangle@length.coverage" NAME="length Coverage Results" MODIFIED="1404817812541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="Rectangle" />
-    <SUITE FILE_PATH="coverage/Rectangle@Run_spec__rectangle_spec___Rectangle.coverage" NAME="Run spec 'rectangle_spec': Rectangle Coverage Results" MODIFIED="1404872598891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Rectangle" />
+    <SUITE FILE_PATH="coverage/Rectangle@Run_spec__rectangle_spec___Rectangle.coverage" NAME="Run spec 'rectangle_spec': Rectangle Coverage Results" MODIFIED="1404873569110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Rectangle" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -51,8 +50,8 @@
       <file leaf-file-name="rectangle_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/rectangle_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1095">
-              <caret line="54" column="123" selection-start-line="54" selection-start-column="123" selection-end-line="54" selection-end-column="123" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -61,18 +60,18 @@
       <file leaf-file-name="rectangle.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/rectangle.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="645">
-              <caret line="29" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="660">
+              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="length_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="length_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/length_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37974682" vertical-offset="0" max-vertical-offset="795">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="855">
+              <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -82,17 +81,17 @@
         <entry file="file://$PROJECT_DIR$/lib/unit.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="length.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="length.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/length.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.12658228" vertical-offset="60" max-vertical-offset="840">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,11 +110,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/rectangle.rb" />
         <option value="$PROJECT_DIR$/lib/unit.rb" />
-        <option value="$PROJECT_DIR$/spec/rectangle_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/length_spec.rb" />
         <option value="$PROJECT_DIR$/lib/length.rb" />
+        <option value="$PROJECT_DIR$/spec/length_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/rectangle.rb" />
+        <option value="$PROJECT_DIR$/spec/rectangle_spec.rb" />
       </list>
     </option>
   </component>
@@ -555,26 +554,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rectangle_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/length_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1095">
-          <caret line="54" column="123" selection-start-line="54" selection-start-column="123" selection-end-line="54" selection-end-column="123" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="855">
+          <caret line="48" column="66" selection-start-line="48" selection-start-column="66" selection-end-line="48" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/rectangle.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="645">
-          <caret line="29" column="0" selection-start-line="8" selection-start-column="2" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="660">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/length.rb">
+    <entry file="file://$PROJECT_DIR$/spec/rectangle_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -582,15 +581,15 @@
     <entry file="file://$PROJECT_DIR$/lib/unit.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/length_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/length.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37974682" vertical-offset="0" max-vertical-offset="795">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.12658228" vertical-offset="60" max-vertical-offset="840">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>

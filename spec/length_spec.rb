@@ -5,11 +5,11 @@ describe 'Length' do
   context "Equality and type check" do
 
     let (:length1) do
-      Length.new(1,'cm')
+      Length.new(1, Unit::CM)
     end
 
     it 'equates to value of  object' do
-      length2=Length.new(1,'cm')
+      length2=Length.new(1, Unit::CM)
       expect(length1).to eq(length2)
     end
 
@@ -23,7 +23,7 @@ describe 'Length' do
     end
 
     it 'same Lengths have same hash' do
-      length2 = Length.new(1,'cm')
+      length2 = Length.new(1, Unit::CM)
       expect(length1.hash).to eq(length2.hash)
     end
 
@@ -32,17 +32,21 @@ describe 'Length' do
     end
 
     it "symmetric property" do
-      length2 = Length.new(1,'cm')
+      length2 = Length.new(1, Unit::CM)
       expect(length1).to eq(length2) and expect(length2).to eq(length1)
     end
 
     it "transitive property" do
-      length2 = Length.new(1,'cm')
-      length3 = Length.new(1,'cm')
+      length2 = Length.new(1, Unit::CM)
+      length3 = Length.new(1, Unit::CM)
       expect(length1).to eq(length2) and expect(length2).to eq(length3) and expect(length3).to eq(length1)
     end
 
 
+  end
+
+  it "lengths are equal if one length is 100 mm and the other length is 1cm " do
+    expect(Length.new(1, Unit::CM)).to eq(Length.new(100, Unit::MM))
   end
 
 end
